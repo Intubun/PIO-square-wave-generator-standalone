@@ -1,11 +1,8 @@
 .program clk
 
-; Turn on LED for 100 cycles and off for 100 cycles.
-; At 2 kHz, this will toggle pin at 10 Hz (200 cycles / 2000 Hz = 0.1 sec)
-
 .wrap_target
-    set pins, 1    ; Turn LED on and wait another 19 cycles
-    set pins, 0    ; Turn LED off and wait another 19 cycles
+    set pins, 1
+    set pins, 0
 .wrap
 
 % c-sdk {
