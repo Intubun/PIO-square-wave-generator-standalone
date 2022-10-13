@@ -1,4 +1,3 @@
-#include <hardware/pio.h>
 #include "PICO_CLK.pio.h"                                     // precompiled PIO programm
 
 void setup() {
